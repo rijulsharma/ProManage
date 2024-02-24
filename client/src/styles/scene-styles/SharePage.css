@@ -1,0 +1,14 @@
+.sharePage {
+    width: 28%;
+    height: 70%;
+    border: #EDF5FE 2px solid;
+    border-radius: 12px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

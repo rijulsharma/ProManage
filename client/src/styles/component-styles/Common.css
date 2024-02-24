@@ -1,0 +1,22 @@
+.blue-btn{
+ border-radius: 12px;
+ background-color: #17A2B8;
+ color: white;
+ width: 100%;
+ height: 25%;
+ border: none;
+ cursor: pointer;
+ /* margin-top: 4%; */
+ font-family: 'Poppins',sans-serif;
+}
+.cancel-btn{
+ border-radius: 12px;
+ background-color: transparent;
+ border: #CF3636 1px solid;
+ color: #CF3636;
+ cursor: pointer;
+ height: 25%;
+ /* margin-top: 2%; */
+ width: 100%;
+ font-family: 'Poppins',sans-serif;
+}

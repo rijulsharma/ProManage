@@ -1,0 +1,42 @@
+/* PopUp.css */
+.popup-container {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    width: 22%; /* 22% of the viewport width */
+    height: 19.5%; /* 19.5% of the viewport height */
+    background-color: white; /* Popup background color */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    z-index: 999; /* Ensure the popup appears above other elements */
+    padding: 2%; /* Add padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  
+  .popup-container p {
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1 rem !important;
+
+  }
+  
+
+  /* Background overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #303D438C; /* Background color with opacity */
+    backdrop-filter: blur(0.2px); /* Apply blur effect */
+    z-index: 998; /* Ensure the overlay appears below the popup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

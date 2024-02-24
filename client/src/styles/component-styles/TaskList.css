@@ -1,0 +1,26 @@
+.taskList{
+    width: 100%;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    /* background-color: pink; */
+}
+.taskList img{
+    cursor: pointer;
+}
+.task-input{
+    display: flex;
+    /* background-color: green; */
+    width: 95%;
+    
+}
+.task-input input{
+    border: none;
+    width: 100%;
+    margin-left: 2%;
+    outline: none;
+}

@@ -1,0 +1,65 @@
+.board{
+    width: 100%;
+    height: 100%;
+}
+.board-main-row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items:center;
+    /* background-color: yellow; */
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+}
+.board-main-row h2{
+    font-size: 1.6rem;
+}
+.board-main-row.sec{
+    padding-top: 3.2%;
+    min-height: 70%;
+    height: 72%;
+    padding-bottom: 1%;
+    justify-content: flex-start;
+    overflow-x: auto; 
+   
+    
+}
+.board-main-row.sec::-webkit-scrollbar {
+    height: 10px; /* Height of the horizontal scrollbar */
+    width: 8px;
+    
+}
+
+.board-main-row.sec::-webkit-scrollbar-track {
+    background: white; /* Color of the track */
+}
+
+.board-main-row.sec::-webkit-scrollbar-thumb {
+    background: #9CB7C5; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.board-main-row.sec::-webkit-scrollbar-thumb:hover {
+    background: #9CB7C5; /* Color of the thumb on hover */
+}
+.board-period{
+    display: flex;
+    /* background-color: pink; */
+    align-items: center;
+    width: 10%;
+    justify-content: flex-end;
+    cursor: pointer;
+
+}
+.board-period h4{
+    margin-right: 5%;
+    color: #000000;
+    font-weight: 200;
+    font-size: medium;
+}
+.board-period img{
+    height: 5%;
+    margin-left: 0%;
+    margin-right: 0;
+}

@@ -1,0 +1,52 @@
+.section{
+  background-color: #EEF2F5;
+  height: 100vh;
+  min-width: 350px;
+  /* overflow: auto; */
+  margin-right: 1%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto; 
+
+}
+.section::-webkit-scrollbar {
+  height: 6px ; /* Height of the horizontal scrollbar */
+  width: 8px;
+  
+}
+
+.section::-webkit-scrollbar-track {
+  background: white; /* Color of the track */
+}
+
+.section::-webkit-scrollbar-thumb {
+  background: #9CB7C5; /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.section::-webkit-scrollbar-thumb:hover {
+  background: #9CB7C5; /* Color of the thumb on hover */
+}
+.section-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  /* margin-bottom: 2%; */
+  font-family: 'Poppins', sans-serif;
+  /* background-color: yellow; */
+}
+.section-icons{
+  display: flex;
+  cursor: pointer;
+  width: 20%;
+  justify-content: flex-end;
+  /* background-color: pink; */
+  
+}
+.section-icon-add{
+  margin-right: 30%;
+}
